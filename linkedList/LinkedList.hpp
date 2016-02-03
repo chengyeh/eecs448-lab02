@@ -108,7 +108,7 @@ bool LinkedList<T>::removeBack()
 
         if(!isEmpty())
         {
-            lastNode = m_font;
+            lastNode = m_front;
             if( lastNode->getNext() != nullptr )
             {
                 secondintoLast = lastNode;
